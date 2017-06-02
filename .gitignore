@@ -4,3 +4,8 @@ data
 models
 *.swp
 *.p
+.python-version
+checkpoint
+lenet.data-00000-of-00001
+lenet.index
+lenet.meta
