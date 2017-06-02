@@ -108,7 +108,7 @@ Here are five German traffic signs that I found on the web:
 
 Here are the results of the predicted labels:
 
-<img src="./images_for_submission/new_imaegs_predicted.png" width="800">
+<img src="./images_for_submission/new_images_predicted.png" width="800">
 
 perfect! 100%
 
