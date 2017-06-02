@@ -1,6 +1,6 @@
 # Traffic Sign Recognition
 
-<img src="./images_for_submission/data_sample.png" width="400">
+<img src="./images_for_submission/data_sample.png" width="800">
 
 The goals / steps of this project are the following:
 * Load the data set (see below for links to the project data set)
@@ -25,7 +25,7 @@ Number of unique labels = 43
 
 Distrubution of Labels
 
-<img src="./images_for_submission/data_distribution.png" width="400">
+<img src="./images_for_submission/data_distribution.png" width="800">
 
 ### Model
 
@@ -43,7 +43,7 @@ It looks bad because images don't have scale like [0-255].
 
 but no problem for neural network.
 
-<img src="./images_for_submission/preprocessed_images.png" width="400">
+<img src="./images_for_submission/preprocessed_images.png" width="800">
 
 And at first, I had tried converting *rgb2gray*. But I couldn't make performance improve. So, I had stopped using *rgb2gray*
 
@@ -102,13 +102,13 @@ Iterative approach to get solution:
 
 Here are five German traffic signs that I found on the web:
 
-<img src="./images_for_submission/new_imaegs.png" width="400">
+<img src="./images_for_submission/new_imaegs.png" width="800">
 
 #### 2. model's predictions and accuracy on these new traffic signs
 
 Here are the results of the predicted labels:
 
-<img src="./images_for_submission/new_imaegs_predicted.png" width="400">
+<img src="./images_for_submission/new_imaegs_predicted.png" width="800">
 
 perfect! 100%
 
