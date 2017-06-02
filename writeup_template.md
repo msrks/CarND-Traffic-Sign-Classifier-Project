@@ -108,7 +108,7 @@ Here are five German traffic signs that I found on the web:
 
 Here are the results of the predicted labels:
 
-<img src="./images_for_submission/new_images_predicted.png" width="800">
+<img src="./images_for_submission/new_images_predicted.png" width="1000">
 
 perfect! 100%
 
@@ -116,4 +116,4 @@ perfect! 100%
 
 all model has 100% certainty because the output value of softmax is like one-hot.
 
-the reason is ... test new images is too easy for classification???
+I think the reason is that the test new images is too easy for classification.
