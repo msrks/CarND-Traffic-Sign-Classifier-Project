@@ -114,6 +114,6 @@ perfect! 100%
 
 #### 3. prediction certainty
 
-all model has 100% certainty.
+all model has 100% certainty because the output value of softmax is like one-hot.
 
 the reason is ... test new images is too easy for classification???
