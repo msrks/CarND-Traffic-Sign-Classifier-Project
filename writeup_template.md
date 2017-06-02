@@ -14,12 +14,12 @@ The goals / steps of this project are the following:
 
 #### 1. dataset summary
 
-Number of training examples = 34799
-Number of validation examples = 4410
-Number of testing examples = 12630
-Image data shape = (32, 32, 3)
-Number of classes = 34799
-Number of unique labels = 43
+* Number of training examples = 34799
+* Number of validation examples = 4410
+* Number of testing examples = 12630
+* Image data shape = (32, 32, 3)
+* Number of classes = 34799
+* Number of unique labels = 43
 
 ##### 2. visualization of the dataset.
 
@@ -81,11 +81,13 @@ I have used ELU for activation because It resolve the problem of Relu, dying neu
 #### 4. the approach I have taken for finding a solution.
 
 My final model results were:
+
 * training set accuracy of 1.000
 * validation set accuracy of 0.961
 * validation set accuracy of 0.960
 
 Iterative approach to get solution:
+
 * first architecture was LeNet, which is explained in udacity lecture.
 * first architecture was too small to utilize more labels and more complicated data distribution than mnist dataset.
 * so, I added
