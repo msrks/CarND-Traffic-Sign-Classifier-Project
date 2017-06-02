@@ -82,7 +82,8 @@ I have used ELU for activation because It resolve the problem of Relu, dying neu
 
 My final model results were:
 * training set accuracy of 1.000
-* validation set accuracy of 0.953
+* validation set accuracy of 0.961
+* validation set accuracy of 0.960
 
 Iterative approach to get solution:
 * first architecture was LeNet, which is explained in udacity lecture.
@@ -109,16 +110,10 @@ Here are the results of the predicted labels:
 
 <img src="./images_for_submission/new_imaegs_predicted.png" width="400">
 
-perfect!
+perfect! 100%
 
 #### 3. prediction certainty
 
-top 5 softmax
+all model has 100% certainty.
 
-| Probability         	|     Prediction	        					|
-|:---------------------:|:---------------------------------------------:|
-| .60         			| Stop sign   									|
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+the reason is ... test new images is too easy for classification???
